@@ -1,0 +1,36 @@
+.item-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    margin: 40px auto;
+}
+
+.item-list .card {
+    background-color: #fff;
+    color: #111;
+    padding: 1.4rem;
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .05);
+    transition: all .3s ease;
+    position: relative;
+    border: 5px black;
+}
+
+.id {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.item-list .card:hover {
+    transform: scale(1.1);
+}
+
+
+.input input {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    outline: none;
+    border-radius: 5px;
+}
