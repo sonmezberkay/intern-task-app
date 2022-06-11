@@ -15,7 +15,7 @@ const ItemListFilter = ({ items }) => {
           </div>
             <div className={classes['item-list']}>
             {items.filter((item) => {
-                if (searchedId == "") {
+                if (searchedId === "") {
                     return item
                 } else if (item.id.toString().includes(searchedId)) {
                     return item
