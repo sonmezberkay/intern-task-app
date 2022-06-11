@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-Simply downloaad or clone the folder.
+Simply download or clone the folder.
 
 Run --> npm install and npm start
 
