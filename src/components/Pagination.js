@@ -1,6 +1,5 @@
 import { faArrowCircleLeft, faArrowCircleRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
 
 
 const Pagination = ({paginate}) => {
@@ -10,8 +9,8 @@ const Pagination = ({paginate}) => {
     return (
         <nav>
             <ul  className="pagination">
-                <Link onClick={() => paginate(pageNumbers[0])} className="left-btn"><FontAwesomeIcon icon={faArrowCircleLeft} /></Link>
-                <Link onClick={() => paginate(pageNumbers[1])} className="right-btn"><FontAwesomeIcon icon={faArrowCircleRight} /></Link>
+                <button onClick={() => paginate(pageNumbers[0])} className="left-btn"><FontAwesomeIcon icon={faArrowCircleLeft} /></button>
+                <button onClick={() => paginate(pageNumbers[1])} className="right-btn"><FontAwesomeIcon icon={faArrowCircleRight} /></button>
             </ul>
         </nav>
     )

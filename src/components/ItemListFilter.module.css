@@ -1,8 +1,9 @@
 .item-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 40px;
-    margin: 40px auto;
+    grid-gap: 2.7rem;
+    margin: 2.7rem 5rem;
+    min-height: 29rem;
 }
 
 .item-list .card {
@@ -14,6 +15,7 @@
     transition: all .3s ease;
     position: relative;
     border: 5px black;
+    max-height: 10rem;
 }
 
 .id {

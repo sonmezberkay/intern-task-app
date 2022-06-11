@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import Home from "./components/home/Home";
 import Navbar from "./components/Navbar";
 import ThemeSelector from "./components/ThemeSelector";
@@ -13,11 +13,7 @@ function App() {
       <BrowserRouter>
       <Navbar />
       <ThemeSelector />
-        <Switch>
-          <Route path='/' exact>
-            <Home />
-          </Route>
-        </Switch>
+      <Home />
       </BrowserRouter>
     </div>
   );

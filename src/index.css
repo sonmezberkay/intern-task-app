@@ -53,14 +53,31 @@ input {
   transform: translateX(-65%);
 }
 
+.pagination button {
+  background-color: transparent;
+  border: none;
+}
+
 .pagination .left-btn {
   margin-right: 1rem;
   cursor: pointer;
   font-size: 2rem;
+  color: blue;
 }
 
 .pagination .right-btn {
   margin-left: 1rem;
   cursor: pointer;
   font-size: 2rem;
+  color: blue;
+}
+
+.pagination .left-btn:hover,
+.pagination .right-btn:hover {
+  filter: brightness(.2);
+}
+
+.pagination .left-btn:active,
+.pagination .right-btn:active {
+  transform: scale(.9);
 }
