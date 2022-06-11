@@ -62,7 +62,9 @@ const Home = () => {
             {data && <p className='error'>{error}</p>}
             {isPending && <p className='loading'>Loading...</p>}
             {data && items && <ItemListFilter items={currentItems} />}
+            <div className='arrows'>
             <Pagination itemsPerPage={itemsPerPage} totalItems={items.length} paginate={paginate} />
+            </div>
         </div>
     )
 };
