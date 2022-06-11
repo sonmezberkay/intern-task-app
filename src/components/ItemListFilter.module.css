@@ -3,7 +3,6 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 2.7rem;
     margin: 2.7rem 5rem;
-    min-height: 29rem;
 }
 
 .item-list .card {
