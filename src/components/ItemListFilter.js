@@ -11,7 +11,7 @@ const ItemListFilter = ({ items }) => {
   return (
       <div>
           <div className={classes.input}>
-            <input placeholder='Search...' type='text' id='search' autoComplete="off"  required onChange={e => setSearchedId(e.target.value)} />
+            <input placeholder='Search...' type='number' id='search' autoComplete="off"  required onChange={e => setSearchedId(e.target.value)} />
           </div>
             <div className={classes['item-list']}>
             {items.filter((item) => {
